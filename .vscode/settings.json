@@ -1,0 +1,13 @@
+{
+  "python.languageServer": "Pylance",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "python.analysis.typeCheckingMode": "basic",
+
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}
