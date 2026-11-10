@@ -1,6 +1,13 @@
-from tasks import load_tasks,add_task,delete_task,toggle_task_status
+from tasks import load_tasks, add_task, delete_task, toggle_task_status
 
 def main():
+    # بارگذاری اولیه تسک‌ها
+    tasks = load_tasks()
+    
+    # شرط اولیه: اگر چیزی در داده‌ها نبود
+    if not tasks:
+        print("\n[!] there is no task. Please enter your first task")
+    
     while True:
         print("\n=== Task Manager ===")
         print("1. View Tasks")
